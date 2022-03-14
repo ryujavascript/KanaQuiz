@@ -9,16 +9,16 @@ Can you name the Romaji (English syllable) that matches the Hiragana/Katakana ch
 ## Usage
 
 ```bash
-usage python3 kanaquiz.py <operation>
+usage python kanaquiz.py <operation>
 operations: 
-    python3 kanaquiz.py {-h}     play hiragana only
-    python3 kanaquiz.py {-k}     play katakana only
-    python3 kanaquiz.py {-a}     play all kana quiz
-    python3 kanaquiz.py {-d}     play dakuon quiz
-    python3 kanaquiz.py {-t}     play trinity quiz
-    python3 kanaquiz.py {-l}     list kanas with romaji
-    python3 kanaquiz.py {-o}     list kanas only
-    python3 kanaquiz.py {-q}     query performance history
+    python kanaquiz.py {-h}     play hiragana only
+    python kanaquiz.py {-k}     play katakana only
+    python kanaquiz.py {-a}     play all kana quiz
+    python kanaquiz.py {-d}     play dakuon quiz
+    python kanaquiz.py {-t}     play trinity quiz
+    python kanaquiz.py {-l}     list kanas with romaji
+    python kanaquiz.py {-o}     list kanas only
+    python kanaquiz.py {-q}     query performance history
 ```
 
 ## Tutorial
@@ -26,7 +26,7 @@ operations:
 List all the hiragana/katakana characters and their romanized names:
 
 ```bash
-python3 kanaquiz.py -l
+python kanaquiz.py -l
 ```
 
 Study/review kanas right inside your terminal: 
@@ -36,7 +36,7 @@ Study/review kanas right inside your terminal:
 When you are ready, take the hiragana quiz at first:
 
 ```bash
-python3 kanaquiz.py -h
+python kanaquiz.py -h
 ```
 
 click enter to start the quiz:
@@ -61,13 +61,13 @@ Figure out which kana got the slowest response time (you are least likely to rem
 The history reports can always be queried by:
 
 ```bash
-python3 kanaquiz.py -q
+python kanaquiz.py -q
 ```
 
 Check the hiragana/katakana chart at any time if you can't remember them by:
 
 ```bash
-python3 kanaquiz.py -l
+python kanaquiz.py -l
 ```
 
 
